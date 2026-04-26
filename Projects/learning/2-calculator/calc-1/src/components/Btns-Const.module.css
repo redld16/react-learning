@@ -1,0 +1,9 @@
+.btns_cont {
+  display: flex;
+  gap: 5px;
+  height: 70%;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}

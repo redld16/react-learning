@@ -1,0 +1,35 @@
+.listContainer {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow: auto;
+
+  height: 70vh;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.noItem {
+  display: block;
+  text-align: center;
+
+  padding: 20px;
+  border-radius: var(--radius-md);
+
+  background-color: #fee2e2;
+  color: #991b1b;
+
+  font-size: 1.2rem;
+  text-decoration: none;
+
+  transition: all 0.2s ease;
+}
+
+.noItem:hover {
+  background-color: #fecaca;
+}

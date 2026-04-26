@@ -1,0 +1,11 @@
+body{
+  color: #280f0f;
+  background-color: #f4eeee;
+
+}
+
+.card-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

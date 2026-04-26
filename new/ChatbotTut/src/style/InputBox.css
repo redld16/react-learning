@@ -1,0 +1,55 @@
+/* ===== Input Area ===== */
+.chat-area {
+  display: flex;
+  padding: 12px;
+  border-top: 1px solid #e5e7eb;
+  gap: 10px;
+}
+
+/* Input Field */
+.chat-area textarea {
+  flex: 1;
+  padding: 5px 18px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  font-size: 14px;
+  scrollbar-width: none;
+}
+
+/* Focus effect */
+.chat-area textarea:focus {
+  border-color: #22c55e;
+}
+
+/* Send Button */
+.sendBtn {
+  padding: 10px 18px;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+/* Hover effect */
+.sendBtn:hover {
+  background-color: #15803d;
+}
+.clearBtn {
+  padding: 10px 18px;
+  background-color: #e70712;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+/* Hover effect */
+.clearBtn:hover {
+  background-color: #ff0000;
+}

@@ -1,0 +1,17 @@
+body {
+  background-color: #dad1d2 !important;
+}
+
+.todo-container {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 10px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+}
+

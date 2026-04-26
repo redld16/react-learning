@@ -1,0 +1,78 @@
+.chat-box {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scrollbar-width: none;
+}
+.loading-spinner {
+  height: 30px;
+  width: 30px;
+}
+.empty-chat {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #374151;
+}
+
+/* ===== Message Row ===== */
+.message-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+/* User messages (right side) */
+.message-row.user {
+  justify-content: flex-end;
+}
+
+/* Bot messages (left side) */
+.message-row.bot {
+  justify-content: flex-start;
+}
+
+/* ===== Icon (avatar) ===== */
+.icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #22c55e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+/* ===== Message Bubble ===== */
+.message {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.time {
+  font-size: 12px;
+  color: #00040b;
+  margin-top: 4px;
+}
+
+/* User bubble */
+.user .message {
+  background-color: #e5e7eb;
+  border-bottom-right-radius: 4px;
+}
+
+/* Bot bubble */
+.bot .message {
+  background-color: #f3f4f6;
+  border-bottom-left-radius: 4px;
+}

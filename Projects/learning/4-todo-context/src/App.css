@@ -1,0 +1,28 @@
+body {
+  background-color: #dad1d2 !important;
+}
+
+.todo-container {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 10px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+}
+
+.no-todo > h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

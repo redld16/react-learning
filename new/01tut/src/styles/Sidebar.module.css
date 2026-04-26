@@ -1,0 +1,34 @@
+.sidebar {
+  width: 120px;
+  min-height: 100%;
+
+  background-color: #111827;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  padding: 20px 10px;
+  gap: 10px;
+}
+
+.sidebar a {
+  color: var(--text-light);
+  font-size: 0.95rem;
+
+  padding: 10px;
+  border-radius: var(--radius-sm);
+
+  text-align: center;
+  text-decoration: none;
+
+  transition: all 0.2s ease;
+}
+
+.sidebar a:hover {
+  background-color: var(--primary);
+}
+
+.sidebar a:focus-visible {
+  outline: 2px solid white;
+}
